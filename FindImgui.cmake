@@ -14,10 +14,10 @@ target_sources(Imgui PUBLIC
         ${IMGUI_LIBRARY}/imgui_draw.cpp
         ${IMGUI_LIBRARY}/imgui_tables.cpp
         ${IMGUI_LIBRARY}/imgui_widgets.cpp
-        ${IMGUI_LIBRARY}/backends/imgui_impl_sdl.cpp
-        ${IMGUI_LIBRARY}/backends/imgui_impl_sdl.h
-        ${IMGUI_LIBRARY}/backends/imgui_impl_sdlrenderer.cpp
-        ${IMGUI_LIBRARY}/backends/imgui_impl_sdlrenderer.h
+        ${IMGUI_LIBRARY}/backends/imgui_impl_sdl2.cpp
+        ${IMGUI_LIBRARY}/backends/imgui_impl_sdl2.h
+        ${IMGUI_LIBRARY}/backends/imgui_impl_sdlrenderer2.cpp
+        ${IMGUI_LIBRARY}/backends/imgui_impl_sdlrenderer2.h
         )
 
 target_include_directories(Imgui PUBLIC ${IMGUI_INCLUDE_DIR})
